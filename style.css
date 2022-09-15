@@ -13,5 +13,43 @@
   box-sizing: border-box;
 }
 
+button {
+  height: 50px;
+  padding: 0 20px;
+  
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid white;
+}
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
+  height: 75px
+}
+
+/* Header: first child */
+#logo-box {
+  flex-basis: 450px;
+}
+
+/* Header: last child */
+#customer-actions-box {
+  flex-basis: 600px;
+
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+#order-btn {
+  background: #38096c;
+  color: whitesmoke;
+}
+
+#login-btn {
+  color: #636e72;
+  border: 2px solid #636e72
+}
