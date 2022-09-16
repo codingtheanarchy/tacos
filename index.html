@@ -12,9 +12,9 @@
 
 <body>
   <header>
-    <div id="logo-box">
-      <img src="images/taco-bell-logo.png" alt="taco bell logo">
-    </div>
+    <form id="search-box">
+      <input type="text" name="search" value="search">
+    </form>
     <div id="customer-actions-box">
       <button id="order-btn">START YOUR ORDER</button>
       <button id="login-btn">LOGIN</button> 
@@ -24,7 +24,11 @@
     </div>
   </header>
   <main>
+   <div id="sidebar-and-categories">
     <aside>
+      <div id="logo-box">
+       <img src="images/taco-bell-logo.png" alt="taco bell logo">
+      </div>
       <menu>
         <li>MENU</li>
         <li>LOCATIONS</li>
@@ -34,10 +38,14 @@
         <li>GIFT CARDS</li>
       </menu>
     </aside>
+
     <section>
-      <h1>TACO BELL MENU</h1>
-      <hr>
+       <h1>TACO BELL MENU</h1>
+       <div id="categories">
+        
+       </div>
     </section>
+   </div>
   </main>
 </body>
 
