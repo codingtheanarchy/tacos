@@ -44,7 +44,7 @@ header {
 }
 
 /* Header: first child */
-#logo-box {
+#search-box {
   flex-basis: 450px;
 }
 
@@ -65,4 +65,20 @@ header {
 #login-btn {
   color: #636e72;
   border: 2px solid #636e72
+}
+
+main {
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+main aside {
+  width: 150px;
+}
+
+main section {
+  width: 100%;
+  max-width: 918px;
+  margin: 0 auto;
 }
